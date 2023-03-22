@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+
+}
+
+.orange {
+    color: #ffc107;
+}
+
+.text-font {
+    color: rgb(137, 133, 133);
+}
+
+.navbar {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar .logo {
+    width: 90px;
+
+}
+
+.nav-anim{
+    background-color: rgba(38, 38, 38, 0.753);
+    height: 100px;
+    margin: auto;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 5;
+  box-shadow: 0.2px 0.1px 0.1px 0.4px rgb(109, 107, 107);
+
+  }
+
+  .navbar-nav{
+ 
+ margin-top:-20px ;
+    margin-right: 80px;
+  }
+.navbar-nav .active-list{
+    color: #ffc107;
+    border-bottom: 2px solid #ffc107;
+}
+
+.nav-link {
+    color: white;
+    width: 68px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 0.6s ease;
+    border-bottom: 2px solid #ffc107;
+
+}
+
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.marginTop {
+    margin-top: 300px;
+}
+
+.banner-image {
+    margin-left: -0px;
+    margin-top: -40px;
+}
+
+#navbarNavDropdown {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.banner-text h1 {
+    font-size: 90px;
+}
+
+.btn-orange {
+    background-color: #ffc107;
+    padding: 12px 23px;
+}
+.pf-bouton{
+    padding: 12px 23px;
+    border: 1px solid white;
+    color: white;
+   
+}
+.pf-bouton:hover{
+     background-color: #ffc107;
+    color: white;
+}
+.active-item{
+    background-color: #ffc107;
+}
+
+.btn-orange:hover {
+    color: white;
+}
+
+.btn-transparent-white {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 23px;
+}
+
+.btn-transparent-white:hover {
+    background-color: #ffc107;
+
+    border: 0;
+}
+
+
+@media (max-width:1400px) {
+    .banner-text h1 {
+        font-size: 75px;
+
+    }
+
+}
+
+
+@media (max-width:992px) {
+
+    .banner {
+        margin-top: 80px;
+    }
+
+    .banner-text {
+
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .banner-image {
+
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .banner-image img {
+        width: 500px
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .banner {
+        margin-top: 80px;
+    }
+
+    .banner-text {
+
+        position: absolute;
+        width: 768px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .banner-image {
+
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .banner-image img {
+        width: 500px
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+}
+
+.marginTop {
+    margin-top: 350px;
+    transition: 0.6s ease;
+}
+
+
+
+/* --------------- END Banner---------------------- */
+
+/* ---------  ABOUT ME ----------------- */
+
+
+.about-right,
+.skills,
+.quality,
+.portfolio,
+.contact,
+.contact{
+    position: relative;
+}
+
+.big-about {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 120px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    color: rgba(102, 98, 98, 0.343);
+}
+
+
+.span-about {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+
+/* <!-- --------------- END About Me---------------------- -->
+
+<!-- --------------- SKILLS -----------------> */
+
+.skills {
+    text-align: center;
+}
+
+.big {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 130px;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    color: rgba(102, 98, 98, 0.343);
+    z-index: -1;
+}
+
+.text-skills {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+/* <!-- --------------- END Skills---------------------- -->
+<!-- --------------- QUALITY -----------------> */
+
+.quality-left,
+.quality-right {
+
+    border-left: 2px solid #ffc107;
+    padding-top: 50px;
+   
+}
+.fa-sort{
+    transform:rotate(90deg);
+    position:absolute;
+    background-color:orange;
+ width: 22px;
+ height: 22px;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+left: -35px;
+font-size: 15px;
+}
+
+/* <!-- --------------- END QUALITY---------------------- -->
+<!-- --------------- PORTFOLIO -----------------> */
+.button-portfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-all {
+    width: 120px;
+}
+
+.portfolio-banner{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: green;
+}
+.portfolio-banner img{
+    transition: 1s ease;
+}
+
+.portfolio-banner button{
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    top: 100%;
+    z-index: 3;
+    transition: 0.6s ease;
+}
+
+.portfolio-banner button:hover{
+    background-color:#ffc107;
+    color: white;
+}
+
+/* 
+<!-- --------------- END portfolio---------------------- -->
+
+<!-- --------------- contactS -----------------> */
+
+.box-contact {
+    padding: 40px;
+    /* box-shadow: 0.1px 0.1px 0.6px 0.6px rgb(110, 108, 108); */
+    background-color: rgb(25, 25, 25);
+}
+
+.box-contact:hover {
+    padding: 40px;
+    color: white;
+    background-color: #ffc107;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .fa {
+    font-size: 80px;
+    color: #ffc107;
+}
+
+.box-contact h3 {
+    font-size: 27px;
+    padding: 7px;
+    margin-top: 27px;
+}
+
+.box-contact .border-title {
+    height: 1px;
+    width: 50px;
+    background-color: #ffc107;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.box-contact a {
+    text-decoration: none;
+    color: orange;
+
+    font-size: 15px;
+
+}
+
+.box .fa-angle-double-right {
+    font-size: 21px;
+    color: orange;
+    margin-left: 5px;
+}
+
+
+/* <!-- --------------- END contactS--------------------- -->
+
+<!-- --------------- CONTACT -----------------> */
+
+
+.contact-2 .fa{
+    color: orange;
+    background-color: rgb(25, 25, 25);
+    padding: 35px;
+    border-radius: 60%;
+    font-size: 30px;
+}
+.contact p{
+ 
+    font-size: 15px;
+}
+.form-control{
+    width: 85%;
+    height: 50px;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+.contact-droite{
+    background-color: rgb(52, 48, 48);
+    
+}
+#exampleFormControlTextarea1{
+    height: 265px;
+}
+
+.footer .fa{
+    margin-right: 10px;
+}
+
+
+/* body */
+.about,
+.skills,
+.quality,
+.portfolio,
+.contact,
+.contact-2{
+
+    opacity: 0;
+    margin-top: 500px;
+    transition: 1s ease-in-out;
+    transform: scale(0.1);
+}
+
+.opacite{
+    opacity: 1;
+    transform: translateY(0%);
+    margin-top: 200px;
+
+    transform: scale(1);
+}
+
